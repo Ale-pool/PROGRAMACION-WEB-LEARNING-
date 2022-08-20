@@ -1,0 +1,28 @@
+body{
+ background-image: url(/img/fondo1.jpg);
+ background-size: cover;
+
+}
+
+img {
+
+width: 250px;
+border-radius: 350px;
+
+}
+
+.contenedor{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.caja1 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
