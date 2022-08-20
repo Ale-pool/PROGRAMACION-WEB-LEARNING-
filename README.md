@@ -6,46 +6,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio pro</title>
+    <title>MI PORTAFOLIO</title>
+    <link rel="stylesheet" href="portafolio.css">
 </head>
 <body>
     <div class="contenedor">
+        <header class="caja1">
+            <section class="nombre">
 
-            <header>
-               
-                <section class="nombre">   
+            <h1> Alexander villada Berrio</h1>
+         </section>
 
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vel similique maxime quis ex neque aliquid? Ratione rerum tempora, saepe repellat architecto adipisci ut eveniet earum voluptatem esse eius? Alias!</p>
+         <section class="foto">
+            <img src="/img/alex.jpeg" alt="Fotografia del estudiante">
+         </section>
+    </header>
+    <section class="caja1">
+    <article>
+        <ul>
+
+            <li>
+                Email: <a href="avillada@correo.iue.edu.co">correo</a>
+
+             </li>
+
+             <li>
+               github: <a href="https://github.com/Ale-pool/PROGRAMACION-WEB-LEARNING-.git"> Repositorio de Github</a>
+            </li>
+
+            <li>
+                Neocities: <a href="alexvillada.neocities.org">neocities</a>
+             </li>
+
+             <li>
+                Universidad <a href="https://www.iue.edu.co/"> Institución universitaria de envigado</a>
+
+             </li>
+        </ul> 
+    
+    </article>
+
+    <article>
+
+        <p> Soy Alexander Villada Berrio estudiante de Ingenieria informatica, actualmente estoy cursado el sexto semestre, interesado en la programacion web y los diferentes uso de los lenguajes de programacion como javascript, python entre otros, para mi la programacion web se vuele una parte esencial a la hora de ser un buen desarrollador ya que nos permite realizar multimples trabajos e idear un sin fin de aplicaciones
+        </p>
+    </article>
+</section>
+
+  <section class="caja1">
+    <article>
+   <h2>CONSULTAS</h2>
+   <ol type="i">
+    <li>consulta </li>
+    <li>consulta </li>
+    <li>consulta </li>
+    <li>consulta </li>
+    <li>consulta </li>
+    
+</ol>
+</article>
+
+<article>
+
+<h2>DISEÑO</h2>
+<OL type="i">
+
+    <li>Diseño </li>
+    <li>Diseño </li>
+    <li>Diseño </li>
+    <li>Diseño </li>
+    <li>Diseño </li>
+    
+</OL>
+</article>
+
+<article>
+<h2>TALLERES</h2>
+<ol type="i">
+
+    <li>Taller </li>
+    <li>Taller </li>
+    <li>Taller </li>
+    <li>Taller </li>
+    <li>Taller </li>
+    
+
+</ol>
+</article>
+
+<article>
+    <h2>RETOS</h2>
+    <ol type="i">
 
 
-                </section>
-                <section class="foto">  
-                    
-                <img src="" alt="fotografia del estudiante">
-                
-                </section>
+        <li>Reto </li>
+        <li>Reto </li>
+        <li>Reto </li>
+        <li>Reto </li>
+        <li>Reto </li>
+        
 
-                <header>
+</ol>
+</article>
+</section>
 
-                <section>
-                  <article>
-                   <ol>
+<footer class="caja1">
+    <section>
 
-                    <li>Email :<a href="avillada@correo.iue.edu.co"></a>li>
-                    <li>Github :<a href="https://github.com/Ale-pool/PROGRAMACION-WEB-LEARNING-.git">Github</a>/li>
-                    <li>neocities :<a href="alexvillada.neocities.org">neocities</a>/li>
-                    <li> Universidad <a href="https://www.iue.edu.co/"> Institución universitaria de envigado</a></li>
-                 </ol>
-                </article>
-                <article>
+        <img src="" alt="">
+     <p> </p>
+     </section>
+  <section>
 
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo sit labore aliquid velit ut fuga at enim optio non ipsam quas rem dolores adipisci corporis iusto, quaerat ipsa! Ab.</p>
+    <img src="/img/iue.png" alt="lootipo de la Universidad">
+</section>
+</footer>
 
-                </article>
-            </section>
-         </header>
-        </header>
+
     </div>
-
+    
 </body>
 </html>
+
+  
+
+
+    
+
