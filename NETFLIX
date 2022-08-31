@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="net.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="wrapper">
+        <!--Empezamos el encabezado del netflix-->
+    <header>
+        <div class="logonetflix">
+            <a  id="logo" href="#home"> <img src="/netimages/logo.png" alt="logonetflix"></a>
+        </div>
+        <nav class="main-nav">
+            <a href="#home">Inicio</a>
+            <a href="seriescoreanas">Series coreanas</a>
+            <a href="#nuevoslanzamientos">Nuevos Lanzamientos</a>
+            <a href="#serieslibros">Series de libros</a>
+            <a href="romance">Romance</a>
+            <a target="_blank" href="https://alexvillada.neocities.org/">PaginaWeb</a>
+        </nav>
+        <nav class="sub-nav">
+            <a href="#"> <i class="fas fa-search sub-nav-logo"></i></a>
+            <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+            <a href="#">Notificaciones</a>
+        </nav>
+    </header>
+    <!--FINAL DE LA PARTE PRINCIPAL-->
+    <!--contenedor de las partes de netflix-->
+    <section class="main-container" >
+        <div class="location" id="home">
+            <h1 id="home">Tendencias</h1>
+            <div class="box">
+              <a href=""><img src="/netimages/TEN1.png" alt=""></a>
+              <a href=""><img src="netimages/ten2.png" alt=""></a>
+              <a href=""><img src="netimages/tend3.png" alt=""></a>
+              <a href=""><img src="netimages/tend4.png" alt=""></a>
+              <a href=""><img src="netimages/tend5.png" alt=""></a>
+              <a href=""><img src="netimages/ted6.png" alt=""></a>
+      
+              <a href=""><img src="netimages/tend7.png" alt=""></a>
+              <a href=""><img src="netimages/tend8.png" alt=""></a>
+              <a href=""><img src="netimages/tend9.png" alt=""></a>
+              <a href=""><img src="netimages/tend10.png" alt=""></a>
+              <a href=""><img src="netimages/tend11.png" alt=""></a>
+              <a href=""><img src="netimages/tend12.png" alt=""></a>        
+            </div>
+        </div>
+        
+  
+        <h1 id="myList">Series coreanas</h1>
+        <div class="box">
+          <a href=""><img src="netimages/corea1.png" alt=""></a>
+          <a href=""><img src="netimages/corea2.png" alt=""></a>
+          <a href=""><img src="netimages/corea3.png" alt=""></a>
+          <a href=""><img src="netimages/corea4.png" alt=""></a>
+          <a href=""><img src="netimages/corea5.png" alt=""></a>
+          <a href=""><img src="netimages/corea6.png" alt=""></a>                  
+        </div>
+        
+        <h1 id="nuevoslanzamientos">Nuevos Lanzamientos</h1>
+        <div class="box">
+          <a href=""><img src="netimages/N1.png" alt=""></a>
+          <a href=""><img src="netimages/N2.png" alt=""></a>
+          <a href=""><img src="netimages/N3.png" alt=""></a>
+          <a href=""><img src="netimages/N4.png" alt=""></a>
+          <a href=""><img src="netimages/N5.png" alt=""></a>
+          <a href=""><img src="netimages/am3.png" alt=""></a>
+  
+          <a href=""><img src="netimages/N7.png" alt=""></a>
+          <a href=""><img src="netimages/N8.png" alt=""></a>
+          <a href=""><img src="netimages/N9.png" alt=""></a>
+          <a href=""><img src="netimages/N10.png" alt=""></a>
+          <a href=""><img src="netimages/N11.png" alt=""></a>
+          <a href=""><img src="netimages/N12.png" alt=""></a>              
+        </div>
+        
+  
+        <h1 id="serieslibros">Series emocionantes basadas en libros</h1>
+        <div class="box">
+          <a href=""><img src="netimages/LI1.png" alt=""></a>
+          <a href=""><img src="netimages/LI2.png" alt=""></a>
+          <a href=""><img src="netimages/LI3.png" alt=""></a>
+          <a href=""><img src="netimages/LI4.png" alt=""></a>
+          <a href=""><img src="netimages/LI5.png" alt=""></a>
+          <a href=""><img src="netimages/LI6.png" alt=""></a>                
+        </div>
+  
+        <h1 id="romance">Romances sobre enamorarse</h1>
+        <div class="box">
+          <a href=""><img src="netimages/am1.png" alt=""></a>
+          <a href=""><img src="netimages/am2.png" alt=""></a>
+          <a href=""><img src="netimages/am3.png" alt=""></a>
+          <a href=""><img src="netimages/am4.png" alt=""></a>
+          <a href=""><img src="netimages/am5.png" alt=""></a>
+          <a href=""><img src="netimages/am6.png" alt=""></a>                
+        </div>
+        
+    </section>
+    <!--final de las partes de netflix-->
+    <!--LINKS-->
+    <section class="link">
+        <div class="logos">
+            <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+        </div>
+        <div class="sub-links">
+        <ul>
+            <li><a href="#">Audio y subtitulos</a></li>
+            <li><a href="#">Descripción de audio</a></li>
+            <li><a href="#">Centro de ayuda</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Centro de medios</a></li>
+            <li><a href="#">Información corporativa</a></li>
+            <li><a href="#">Trabajo</a></li>
+            <li><a href="#">Terminos de uso</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Targetas de regalo</a></li>
+            <li><a href="#">Avisos legales</a></li>
+            <li><a href="#">Contáctenos</a></li>
+          </ul>
+         </div>
+    </section>
+
+    <footer>
+      <p>&copy 1997-2022 Netflix, Inc.</p>
+      <p>Alexander villada &copy 2022</p>
+    </footer>
+</div>
+</body>
+</html>
