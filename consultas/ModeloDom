@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina completa</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">APRENDE YA!</p>
+            <NAV>
+                <a href="#somos-proya">Que es el modelo DOM</a>
+                <a href="#nuestros-programas">Representación del DOM </a>
+                <a href="#caracteristicas">Caracteristicas</a>
+            </NAV>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>¿Qué es el DOM? <br>El significado del Modelo de Objeto de Documento en JavaScript</h1>
+        <button >ESTUDIA YÁ</button>
+    </section>
+    <section id="somos-proya">
+        <div class="container">
+
+            <div class="img-container"></div>
+                <h2>¿Que es <span class="color-acento">el modelo DOM?</span> </h2>
+                <p>DOM significa Document Object Model, en español sería Modelo de Objetos del Documento. Es una interfaz de programación que nos permite crear, cambiar, o remover elementos del documento. También podemos agregar eventos a esos elementos para hacer más dinámica nuestra página, el DOM visualiza el documento de HTML como un árbol de tres nodos. Un nodo representa un documento de HTML. <br>
+                
+                    El Modelo de Objetos del Documento (DOM) es una interfaz de programación de aplicaciones (API) para documentos validos HTML y bien construidos XML. Define la estructura lógica de los documentos y el modo en que se accede y manipula. En la especificación DOM, el término "documento" es utilizado en un sentido amplio - the term "document" is used in the broad sense - cada vez más XML es utilizado como un medio de representar muchas clases diferentes de información que puede ser almacenada en sistemas diversos, y mucha de esta información se vería, en términos tradicionales, más como datos que como documentos. Sin embargo, XML presenta estos datos como documentos, y se puede utilizar DOM para manejar estos datos.
+
+                    Con el Modelo de Objetos del Documento, los programadores pueden construir documentos, navegar por su estructura, y añadir, modificar, o eliminiar elementos y contenido. Se puede acceder a cualquier cosa que se encuentre en un documento HTML o XML, modificando, borrando o añadiendo utilizando el Modelo de Objetos del Documento, con algunas excepciones - en particular, aún no se han especificado aplicaciones DOM para los subconjuntos interneto y externos de XML.
+                </p>
+            
+            </div>
+    </section>
+    <section id="nuestros-programas">
+     <div class="container">
+           <h2>Representación del DOM </h2>
+               <div class="programas">
+                    <div class="carta">
+                        <h3>Los objectos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, soluta nobis, natus ipsum molestiae eligendi cumque harum in, odit error ea illo dicta unde laudantium est doloremque vel incidunt eos.</p>
+                        <button>+ INFO</button>
+                        </div>
+                        <div class="carta">
+                        <h3>La semántica</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos reiciendis delectus error et non minus fuga officiis illo asperiores sunt, placeat nam mollitia a voluptates laborum quod eum! Obcaecati, nemo?</p>
+                        <button>+ INFO</button>
+                        </div>
+                        <div class="carta">
+                        <h3>Las relaciones entre interfaces</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum laborum rerum perferendis sapiente deserunt beatae blanditiis suscipit quibusdam, ullam illum vitae pariatur iste alias. Eius sint labore earum expedita.</p>
+                        <button>+ INFO</button>
+                    </div>
+                </div>
+     </div>
+ </section>
+ <section id="caracteristicas">
+<div class="container">
+    <ul>
+        <li>- las interfaces y objetos usados para representar y manipular un documento</li>
+        <li>- la semántica de estas interfaces y objetos, incluyendo comportamiento y atributos</li>
+        <li>- las relaciones y colaboraciones entre estas interfaces y objetos</li>
+        <li>Asistencia financiera</li>
+
+    </ul>
+</div>
+ </section>
+
+ <section id="final">
+    <h2>Ya sabes para que sirve el modelo DOM?</h2>
+    <button>Compruebalo !</button>
+ </section>
+ <footer>
+    <div class="container">
+    <p>&copy;ALEXANDER VILLADA 2022</p>
+    </div>
+ </footer>
+</body>
+</html>
