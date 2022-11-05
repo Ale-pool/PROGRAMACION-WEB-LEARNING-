@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTOCOLOS</title>
+    <link rel="stylesheet" href="protoco.css">
+</head>
+<body>
+    <header>PROTOCOLOS IMPORTANTES</header>
+    <nav>
+        <ul>
+            <li><a href="#POST-1">HTTP</a></li>
+            <li><a href="#POST-2">TCP/IP</a></li>
+            <li><a href="#POST-3">DNS</a></li>
+            <li><a href="#POST-4">CDN</a></li>
+            <li><a href="#POST-5">WWW</a></li>
+            <li><a href="#POST-6">FTP</a></li>
+            <li><a href="#POST-7">HTML</a></li>
+        </ul>
+    </nav>
+    <h1>CONSULTA DE PROTOCOLOS:</h1>
+    <section>
+        <article id="POST-1">
+        <div>
+            <h2>¿Qué es el protocolo HTTP?:</h2>
+            <center><img src="/consultas/imgcon/http.jpg" alt=""></center>
+            <p>es el protocolo de transmisión de información de la World Wide Web, es decir, el código que se establece para que el computador solicitante y el que contiene la información solicitada puedan “hablar” un mismo idioma a la hora de transmitir información por la red, Con el http se establecen criterios de sintaxis y semántica informática (forma y significado) para el establecimiento de la comunicación entre los diferentes elementos que constituyen la arquitectura web: servidores, clientes, proxies. Fue creado en 1999 por el World Wide Web Consortium en colaboración con la Internet Engineering Task Force. <br>
+
+            <br> se trata de un protocolo “sin estado”, vale decir, que no lleva registro de visitas anteriores sino que siempre empieza de nuevo. La información relativa a visitas previas se almacena en estos sistemas en las llamadas “cookies”, almacenadas en el sistema cliente. 
+            <br>
+
+            <h3>¿Para qué sirve el protocolo http?</h3>
+
+            El http, como se ha dicho, es un lenguaje que media entre las peticiones del cliente y las respuestas del servidor en la Internet, para permitir una comunicación fluida y en un mismo “lenguaje”. Este protocolo establece las pautas a seguir, los métodos de petición (llamados “verbos”) y cuenta con cierta flexibilidad para incorporar nuevas peticiones y funcionalidades, en especial a medida que se avanza en sus versiones, considerando que la Internet es poco más que una compleja red de intercambio de información entre computadores a distancia, este tipo de herramientas digitales son clave en establecer las bases para ordenar y facilitar la transmisión de la información.
+            </p>
+
+        </article>
+
+            <article id="POST-2">
+            <h2>¿Qué es TCP/IP?:</h2>
+            <center><img src="/consultas/imgcon/tcp.webp" alt=""></center>
+
+            <p> La definición de TCP/IP es la identificación del grupo de protocolos de red que hacen posible la transferencia de datos en redes, entre equipos informáticos e internet. Las siglas TCP/IP hacen referencia a este grupo de protocolos:
+                <ul>
+                    <li>TCP: es el Protocolo de Control de Transmisión que permite establecer una conexión y el intercambio de datos entre dos anfitriones. Este protocolo proporciona un transporte fiable de datos.</li>
+                    <li>IP: protocolo de internet, utiliza direcciones series de cuatro octetos con formato de punto decimal (como por ejemplo 75.4.160.25). Este protocolo lleva los datos a otras máquinas de la red.</li>
+                </ul>
+                <br>
+
+                TCP/IP ofrece ventajas significativas respecto a otros protocolos de red. Una de esas ventajas es que es capaz de trabajar sobre una extensa gama de hardware y soporta muchos sistemas operativos (es multiplataforma). Internet está repleto de pequeñas redes con sus propios protocolos por lo que el uso de TCP/IP se ha estandarizado y es posible utilizarlo como protocolo de comunicación entre redes privadas intranet y extranet, facilitando una red más homogénea.
+            </p> 
+            </article>
+
+            <article id="POST-3">
+                <h2>¿Qué es DNS?:</h2>
+                <center><img src="/consultas/imgcon/DNS.png" alt=""></center>
+                <p>
+                    El sistema de nombres de dominio (DNS) es el directorio telefónico de Internet. Las personas acceden a la información en línea a través de nombres de dominio como nytimes.com o espn.com. Los navegadores web interactúan mediante direcciones de Protocolo de Internet (IP). El DNS traduce los nombres de dominio a direcciones IP para que los navegadores puedan cargar los recursos de Internet, cada dispositivo conectado a Internet tiene una dirección IP única que otros equipos pueden usar para encontrarlo. Los servidores DNS suprimen la necesidad de que los humanos memoricen direcciones IP tales como 192.168.1.1 (en IPv4) o nuevas direcciones IP alfanuméricas más complejas, tales como 2400:cb00:2048:1::c629:d7a2 (en IPv6).
+
+                    <h3>¿Cómo funciona DNS?</h3>
+                    El proceso de solución de DNS supone convertir un nombre de servidor (como www.ejemplo.com) en una dirección IP compatible con el ordenador (como 192.168.1.1). Se da una dirección IP a cada dispositivo en Internet, y esa dirección será necesaria para encontrar el dispositivo apropiado de Internet, al igual que se usa la dirección de una calle para encontrar una casa concreta. Cuando un usuario quiere cargar una página, se debe traducir lo que el usuario escribe en su navegador web (ejemplo.com) a una dirección que el ordenador pueda entender para poder localizar la página web de ejemplo.com. Para entender el proceso de la resolución de DNS, es importante conocer los diferentes componentes de hardware por los que debe pasar una consulta de DNS. Para el navegador web, la búsqueda de DNS se produce "en segundo plano" y no requiere ninguna interacción del ordenador del usuario, aparte de la solicitud inicial.
+                </p>
+
+             <article id="POST-4">
+
+                <h2>¿Qué es una CDN?:</h2>
+                <center><img src="/consultas/imgcon/CDN.png" alt=""></center>
+                <p>Una red de entrega de contenido (CDN) está formada por un grupo de servidores distribuidos geográficamente que trabajan juntos para ofrecer una entrega rápida de contenido de Internet, una CDN permite la transferencia rápida de activos necesarios para cargar contenido de Internet, incluidas páginas HTML, archivos javascript, hojas de estilo, imágenes y vídeos. La popularidad de los servicios de CDN sigue creciendo y hoy día la mayor parte del tráfico web se lleva a cabo a través de las CDN, incluido el tráfico de los principales sitios como Facebook, Netflix y Amazon.
+                <br>
+                <h3>¿Es una CDN igual a un servidor de sitios web?</h3>
+
+                Aunque la CDN no aloja contenido y no puede reemplazar la necesidad de un alojamiento web adecuado, sí ayuda a almacenar en caché el contenido en el perímetro de la red, lo que mejora el rendimiento del sitio web. Muchos sitios web tienen dificultades para satisfacer sus necesidades de rendimiento mediante los servicios de alojamiento tradicionales, por lo que optan por las CDN, las CDN, que utilizan el almacenamiento en caché para reducir el ancho de banda del servidor, ayudando al mismo tiempo a prevenir interrupciones en el servicio y mejorar la seguridad, suelen ser la opción preferida para mitigar algunos de los principales problemas asociados con el alojamiento web tradicional.
+
+                </p>
+
+                <article id="POST-5">
+                    <h2>Protocolo WWW:</h2>
+                    <center><img src="/consultas/imgcon/www.jpg" alt=""></center>
+                    <p>
+                        World Wide Web es un sistema de hipertexto global que Tim Berners Lee desarrolló inicialmente en 1989 en el Laboratorio Europeo de Física de Partículas, CERN en Suiza. En 1993 la Web empezó a crecer rápidamente y se mantuvo debido al NCSA (Centro Nacional de Aplicaciones de Supercomputadores) que desarrolló un navegador de Web llamado Mosaic, una aplicación basada en X Windows. Esta aplicación proporcionó la primera interfaz gráfica de usuario para la Web e hizo la navegación más sencilla, hoy en día existen navegadores y servidores de Web disponibles para casi todas las plataformas. Se pueden obtener a través de FTP libremente o comprar una copia de licencia. El rápido crecimiento de la Web se debe a que la gente puede navegar de forma flexible por los recursos que están ampliamente extendidos en Internet y recuperarlos. Para tener una idea del crecimiento de la Web, aquí se muestran algunas estadísticas: <br>
+                        <ul>
+                            <li>Junio de 1993 - sólo 130 sitios Web disponibles</li>
+                            <li>Diciembre de 1994 - más de 11500 sitios Web disponibles</li>
+                        </ul>
+
+                        Presentar un documento en hipertexto tiene ciertas ventajas para el usuario. Por ejemplo, si se quiere más información sobre un tema en particular, con una simple pulsación de ratón se puede leer más detalle sobre ello. Los temas con un enlace a otro documento se puede identificar fácilmente porque están resaltados. Un documento de Web podría incluir enlaces a otros documentos residiendo en diferentes sitios Web. Si se activa el enlace, con una pulsación de ratón, el otro documento se recupera automáticamente del servidor correspondiente y se muestra, el protocolo de comunicación estándar entre los servidores Web y los clientes es el Protocolo de Transferencia de Hipertexto (HTTP) que es un estándar borrador de Internet. HTTP es un protocolo genérico orientado a objetos. IETF ha organizado un grupo de trabajo para mejorar el rendimiento de HTTP. Los navegadores de Web pueden utilizar también muchos otros protocolos de Internet como por ejemplo FTP, Gopher, WAIS y NNTP (Protocolo de Transferencia de Noticias de Red). De manera que no se necesita un determinado cliente para tener acceso a todos estos otros recursos también disponibles en la red. Más adelante se explica cómo diferencia el navegador de Web entre todos estos protocolos y cuál de ellos se soportan.
+                    </p>
+                </article>
+
+                <article id="POST-6">
+                    <h2>¿FTP: qué es y cómo funciona?:</h2>
+                    <center><img src="/consultas/imgcon/ftp.webp" alt=""></center>
+                    <p>Las siglas de FTP significan File Transfer Protocol, que se traduce como Protocolo de Transferencia de Archivos. Como su nombre indica, se trata de un protocolo que permite transferir archivos directamente de un dispositivo a otro. Actualmente, es un protocolo que poco a poco va abandonándose, pero ha estado vigente más de 50 años. <br>
+                        <br>
+
+                        El protocolo FTP se empezó a utilizar en abril de 1971, y terminó de definir su estructura en el 73, aunque durante las décadas de los 70 y los 80 del siglo pasado fue perfeccionándose. Para que te hagas una idea, este protocolo nació antes de que existieran Internet o el correo electrónico, ya que fue uno de los componentes básicos de ARPANET, que fue esa red primigenia que luego dio lugar a Internet. <br>
+                        <br>
+                        
+                        Este protocolo funciona entre ordenadores que estén conectados a una red TCP, que significa Transmission Control Protocol o Protocolo de control de transmisión. Este protocolo TCP da soporte a muchas tecnologías, entre ellas a Internet. Para que te hagas a la idea, la familia de protocolos que forman Internet se llama TCP/IP. <br>
+                        <br>
+                        Pero vamos, dejándonos de palabrerías y nombres extraños, simplemente decirte que el protocolo FTP funciona para compartir archivos entre ordenadores que estén conectados a Internet, y los archivos se comparten de forma directa y sin ningún intermediario. <br>
+                        <br>
+                        El protocolo FTP tal cual es un protocolo inseguro, ya que su información no viaja cifrada. Sin embargo, en 2001 esto se solucionó con el protocolo FTPS, que le añade una capa SSH para hacerlo más seguro y privado. <br>
+                        <br>
+                        El FTP es un protocolo muy útil para el envío de archivos, ya que te permite enviarlos de un equipo a otro a gran velocidad de transferencia, y no hay ningún tipo de límites de tamaño como puede pasar en la descarga directa. También suele utilizarse en contextos como la creación de webs, pudiendo enviar pro FTP los ficheros de una web al servidor donde están.
+
+                        <h3>¿Cómo funciona el FTP?</h3>
+                        El funcionamiento de este protocolo es bastante sencillo. Simplemente, un ordenador A se conecta directamente a un ordenador B, y podrá ver los archivos que tiene disponible para compartir. Al verlos, simplemente podrá descargarlos directamente en el equipo que se ha conectado al otro, las conexiones FTP tienen una relación de cliente y servidor. Esto quiere decir que un ordenador tiene que estar configurado como servidor FTP, ese en el que se aloja el contenido, y luego tú te conectas a él como un cliente. En los ordenadores, los datos del protocolo FTP se envían a través de los puertos 20 y 21, que son los que están asignados en todos los equipos para llevar a cabo sus transferencias de archivos.
+                    </p>
+                </article>
+
+                <article id="POST-7">
+                    <h2>¿Que es HTML?:</h2>
+                    <center><img src="/consultas/imgcon/html.jpg" alt=""></center>
+                    <p>HTML es un lenguaje de marcación que sirve para definir el contenido de las páginas web. Se compone en base a etiquetas, también llamadas marcas o tags, con las cuales conseguimos expresar las partes de un documento, cabecera, cuerpo, encabezados, párrafos, etc. En definitiva, el contenido de una página web, HTML es el primer lenguaje que debe aprender cualquier persona interesada en construir un sitio web. A partir del HTML podemos pasar a muchos otros lenguajes interesantes que sirven para hacer cosas diversas y más avanzadas. Es decir, sea cual sea la tecnología, herramienta o gestor de contenido que nos hayamos propuesto aprender, o que tengamos que usar en nuestro día a día, HTML siempre será el lenguaje en el que toda web se construye y, por tanto, es de obligado conocimiento para todos. <br>
+                    
+                        <br>
+
+                        El lenguaje HTML basa su filosofía de desarrollo en la diferenciación. Para añadir un elemento externo a la página (imagen, vídeo, script, entre otros.), este no se incrusta directamente en el código de la página, sino que se hace una referencia a la ubicación de dicho elemento mediante texto. De este modo, la página web contiene solamente texto mientras que recae en el navegador web (interpretador del código) la tarea de unir todos los elementos y visualizar la página final. Al ser un estándar, HTML busca ser un lenguaje que permita que cualquier página web escrita en una determinada versión, pueda ser interpretada de la misma forma (estándar) por cualquier navegador web actualizado.
+
+
+
+                    </p>
+                </article>
+
+            </article>
+          </article>
+             
+               
+
+               </p>
+            
+        </div>
+    </section>
+</body>
+</html>
