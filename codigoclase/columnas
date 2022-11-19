@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- el viewport(ventana de visualización) el área visible del usuario de una página web. -->
+
+	<!-- width=device-width establece el ancho de la página para seguir el ancho de pantalla del dispositivo (que variará en función del dispositivo). -->
+
+	<!-- initial-scale=1.0 fija el nivel de zoom inicial cuando la página se carga por primera vez por el navegador.-->
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/columnas.css">
+
+</head>
+<body>
+
+<div class="contenedor">
+	
+	<div class="fila">
+		
+		<div class="col-12">100%</div>
+	
+	</div>
+
+	<div class="fila">
+		
+		<div class="col-6">50%</div>
+		<div class="col-6">50%</div>
+	
+	</div>
+
+	<div class="fila">
+		
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+	
+	</div>
+
+	<div class="fila">
+		
+		<div class="col-3">25%</div>
+		<div class="col-9">75%</div>
+
+	</div>
+
+	<div class="fila">
+	  
+	  <div class="col-4">33.33%</div> 
+	  <div class="col-4">33.33%</div> 
+	  <div class="col-4">33.33%</div> 
+  
+	</div>
+
+	<div class="fila">
+		
+		<div class="col-7">58.33%</div>
+		<div class="col-5">41.67%</div>
+
+	</div>
+
+	<div class="fila">
+		
+		<div class="col-8">66.67%</div>
+		<div class="col-2">16.67%</div>
+		<div class="col-1">8.33%</div>
+		<div class="col-1">8.33%</div>
+
+	</div>
+
+	<div class="fila">
+		
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+
+	</div>
+
+	<div class="fila" style="background:red">
+		
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+		<div class="col-3">25%</div>
+
+	</div>
+
+
+</div>
+	
+</body>
+</html>
