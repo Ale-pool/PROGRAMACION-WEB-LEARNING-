@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Tutoriales en clasee a tu alcance">
+	<meta name="description" content="Acá se pone la descripción del sitio">
+	<meta name="keywords" content="tutoriales, html, desarrollo web">
+
+	<title>Diseño Web responsivo</title>
+
+	<link rel="icon" href="img/img01.jpg">
+
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+
+<div class="contenedor">
+
+	<!--=====================================
+	SECCION 1
+	======================================-->
+
+	<header class="fila">
+		
+		<div id="logo" class="col-lg-2 col-md-2 col-sm-3 col-xs-12">Logotipo</div>
+
+		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-0"></div>
+
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				
+				<center id="icono1"><p>X</p></center>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+				<center id="icono2"><p>X</p></center>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				
+				<center id="icono3"><p>X</p></center>
+
+			</div>
+
+		</div>
+
+	</header>
+
+	<!--=====================================
+	SECCION 2
+	======================================-->
+
+	<nav class="fila">		
+		<ul>
+			<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Botón 1</a></li>
+			<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Botón 2</a></li>
+			<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Botón 3</a></li>
+			<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Botón 4</a></li>
+			<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Botón 5</a></li>
+			<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Botón 6</a></li>	
+		</ul>
+
+	</nav>
+
+	<!--=====================================
+	SECCION 3
+	======================================-->
+
+	<section id="seccion3" class="fila">
+		
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			
+			<center>
+				<img src="img/img01.jpg">
+	        	<h1>Lorem Ipsum</h1>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </center>
+            
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			
+			<center>
+				<img src="img/img02.jpg">
+	        	<h1>Lorem Ipsum</h1>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </center>
+            
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			
+			<center>
+				<img src="img/img03.jpg">
+	        	<h1>Lorem Ipsum</h1>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </center>
+            
+		</div>
+
+	</section>
+
+	<!--=====================================
+	SECCION 4
+	======================================-->
+
+	<section id="seccion4" class="fila">
+				
+		<aside id="izq" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			
+			<ul>
+        
+	        	<li><a href="#">Link 1</a></li>
+	            <li><a href="#">Link 2</a></li>
+	            <li><a href="#">Link 3</a></li>
+	            <li><a href="#">Link 4</a></li>
+  
+        	</ul>
+
+		</aside>
+
+		<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			
+			<h1>Lorem Ipsum</h1>
+	    	<p><img src="img/foto.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet libero in leo suscipit consequat. Vivamus et nunc neque. Proin vel eros nec nisi luctus laoreet sed vitae nulla. Sed non nulla interdum, consequat turpis at, euismod leo. Fusce fringilla convallis viverra. Integer vel lacus id tortor viverra luctus dapibus et nulla. Integer scelerisque neque eget tortor bibendum, non ultricies tellus vehicula. Morbi imperdiet gravida nisl, non congue ante fringilla in. Mauris laoreet accumsan ultrices.</p>
+	        <br>
+	        <p>Sed feugiat, magna non sagittis porttitor, massa risus iaculis nisi, id semper ante nisi sed justo. In placerat ipsum in metus consectetur suscipit. Donec ante nibh, pulvinar eu lectus vel, aliquam cursus enim. Proin nibh eros, tincidunt et est quis, elementum ultrices eros. Mauris accumsan ac metus in viverra.Integer fringilla urna eu fringilla blandit. Suspendisse et tellus venenatis, aliquam sapien at, pharetra orci. Etiam elit arcu, aliquam eu turpis bibendum, facilisis dapibus augue. </p>		
+
+		</article>
+
+		<aside id="der" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			
+			<h1>Ingreso</h1>
+        
+        	<form>
+        
+        		<input type="text" placeholder="Usuario">
+            
+            	<input type="password" placeholder="Contraseña">
+            
+            	<input type="submit" value="Enviar">
+        
+        	</form>
+
+		</aside>
+
+
+
+	</section>
+
+	<!--=====================================
+	SECCION 5
+	======================================-->
+
+	<footer class="fila">
+		
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&copy; Todos los derechos reservados.</div>
+		
+	</footer>
+
+</div>
+	
+</body>
+</html>
